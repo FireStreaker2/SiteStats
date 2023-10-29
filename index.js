@@ -4,7 +4,11 @@ const hiddenData = document.getElementById("hidden-data");
 
 document.addEventListener("DOMContentLoaded", () => {
 	chrome.storage.sync.get({ data: {} }, (result) => {
-		const data = result.data || {};
+		const data = result.data
+			? Object.fromEntries(
+					Object.entries(result.data).sort((a, b) => b[1] - a[1])
+			  )
+			: {};
 
 		dataContainer.innerHTML = "";
 		hiddenData.innerHTML = "";

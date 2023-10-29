@@ -5,13 +5,13 @@
 	"manifest_version": 3,
 	"author": "FireStreaker2",
 	"icons": {
-		"16": "./images/16.png",
-		"128": "./images/128.png"
+		"16": "images/icon16.png",
+		"128": "images/icon128.png"
 	},
 	"action": {
 		"default_icon": {
-			"16": "./images/16.png",
-			"128": "./images/128.png"
+			"16": "images/icon16.png",
+			"128": "images/icon128.png"
 		},
 		"default_popup": "index.html",
 		"default_title": "SiteStats"
