@@ -1,0 +1,29 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 150px;
+}
+
+#data-container {
+	text-align: left;
+}
+
+#show {
+	cursor: pointer;
+	font-size: smaller;
+  display: none;
+}
+
+#hidden-data {
+	text-align: left;
+	display: none;
+}
+
+#reset {
+	margin-top: 1rem;
+}

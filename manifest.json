@@ -16,7 +16,7 @@
 		"default_popup": "index.html",
 		"default_title": "SiteStats"
 	},
-	"permissions": ["activeTab", "tabs", "storage"],
+	"permissions": ["tabs", "storage"],
 	"background": {
 		"service_worker": "sw.js"
 	}
